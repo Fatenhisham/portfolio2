@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color:cadetblue;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            background-color: #343a40;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+
+            font-weight: bold;
+             margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        img {
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+        blockquote {
+            font-style: italic;
+            color: #555;
+            border-left: 4px solid cadetblue;
+            padding-left: 15px;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: cadetblue;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1> Faten Hesham's Portfolio</h1>
+        <p>Web Development Student | HTML | CSS </p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a motivated and enthusiastic student currently learning 
+            Front-End Web Development. I have a good understanding of HTML,
+             CSS, and I’m currently working on improving my skills in JavaScript 
+             and responsive web design. I enjoy building modern and clean user
+              interfaces, and I’m always eager to learn new tools and frameworks.
+               I'm looking forward to applying my knowledge in real projects and gaining 
+               hands-on experience through internships or entry-level opportunities.</p>
+        <blockquote>
+            "Learning never exhausts the mind." – Leonardo da Vinci
+        </blockquote>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+             <li>Time management</li>
+              <li>Continuous Learning</li>
+            <li>HTML - Intermediate</li>
+            <li>CSS - Intermediate</li>
+            <li>JavaScript - Beginner</li>
+             <li>Learning Speed</li>
+            <li>Teamwork</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+    
+        <h3>1. My First Website to Restaurant</h3>
+        <p>This was my first website using  HTML and CSS. </p>
+        <img src="home.png" alt="Images" width="300">
+        <img src="about.png" alt="Images" width="300">
+        <img src="chefs.png" alt="Images" width="300">
+         <img src="foods.png" alt="Images" width="300">
+         <img src="contact.png" alt="Images" width="300">
+        <h3>2. News website</h3>
+        <p>A Website dispaly Sports,economic and political news.</p>
+        <img src="photos.png" alt="Images" width="300">
+        <img src="khabar.png" alt="Images" width="300">
+    </section>
+
+     <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+    <footer>
+        <p> 2025 Faten Hesham Hussein. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
