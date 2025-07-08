@@ -3,3 +3,4 @@
 ![skills page] (images/skills.png) 
 ![project page] (images/project1.png) 
 ![project page] (images/project2.png) 
+![alt text](image.png) 
